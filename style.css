@@ -1,0 +1,137 @@
+body {
+	display: flex;
+	flex-direction: column;
+	font-size: 10px;
+	font-family:sans-serif,arial;
+	width: 100%;
+	height: 100%;
+}
+
+
+header {
+	display: flex;
+	justify-content: flex-end;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 10px;
+	align-items: center;
+}
+
+.nav {
+	padding: 0 50px 100px 20px
+	margin: 10px;
+	font-size: 14px;
+}
+
+.droit {
+	padding: 0 50px 100px 20px
+	margin: 10px;
+	font-size: 14px;
+}
+
+header Button a {
+	color: white;
+	padding-left: 5px;
+}
+header a {
+	color: black;
+	padding: 15px;
+}
+
+
+header Button:hover {
+	box-shadow: 0 1px 0 rgb(0 0 0 / 15%);
+    background-color: #4285f4;
+}
+
+section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+}
+
+.milieu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+}
+
+.google {
+	wight:100%;
+	height: 92px;
+	margin: 70px;
+}
+
+.recherche {
+	display: flex;
+	width: 200px;
+ 	padding-bottom: 20px;
+}
+
+
+.bouton {
+ width: 584px;
+ height: 100px;
+ padding-bottom: 50px;
+ color: #202124;
+}
+
+.footer {
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+}
+
+footer row {
+	padding: 14px 25px;
+}
+
+footer row row1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+
+footer .parametre {
+display: inline;
+text-align: left;
+}
+
+
+row row2 {
+	display: flex;
+	justify-content: space-between;
+}
+
+row row2 ul {
+	display: flex;
+}
+
+
+
+img {
+	wight:24px;
+	height: 24px;
+	color: #5f6368;
+}
+	
+button {
+	color: white;
+	background-color: #1a73e8;
+	font-size: 14px;
+	border: solid 1px;
+	wight:69px;
+	height: 36px;
+	padding: 9px 23px 9px 23px;
+	border-radius: 4px 4px 4px 4px;
+}
+
+
+
+
